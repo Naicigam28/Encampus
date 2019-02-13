@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Encampus</string>
+    <string-array name="courseItems">
+        <item>Bachelor of Commerce</item>
+        <item>Higher Certificate in Business Management</item>
+        <item>Bachelor of Science in Information Technology</item>
+        <item>Higher Certificate in Information Technology in Information Systems</item>
+        <item>Higher Certificate in Information Systems (Engineering)</item>
+        <item>Higher Certificate in Information Systems (Internet Development)</item>
+        <item>Higher Certificate in Information Systems Network Engineering</item>
+        <item>Higher Certificate in Information Systems Open Source</item>
+    </string-array>
+    <string-array name="campusList">
+        <item>CTI capetown</item>
+        <item>Durbanville</item>
+    </string-array>
+    <string-array name="filterBooks">
+        <item>Author</item>
+        <item>Subject</item>
+        <item>Year</item>
+        <item>Price</item>
+    </string-array>
+    <string-array name="msgFilter">
+        <item>Time</item>
+        <item>Alphabetical</item>
+    </string-array>
+    <string-array name="tutorBooks">
+        <item>Subject</item>
+        <item>Year</item>
+        <item>Campus</item>
+    </string-array>
+    <string-array name="issues">
+        <item>Unable to open market</item>
+        <item>Market images do not load</item>
+        <item>App keeps Crashing</item>
+        <item>Messages are not showing in notifications</item>
+    </string-array>
+    <string name="title_activity_report_issue">ReportIssue</string>
+    <string name="login">LOGIN</string>
+    <string name="no_account">No account?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="log_in">LOG IN</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="background_image">BackGround Image</string>
+
+</resources>

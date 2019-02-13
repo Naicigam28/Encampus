@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.viper.team.encampus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Encampus"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".MainMenuActivity" />
+        <activity android:name=".MarketActivity" />
+        <activity android:name=".SellBooksActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".TutorScreenActivity" />
+        <activity android:name=".BeTutorActivity" />
+        <activity android:name=".TutorViewActivity" />
+        <activity android:name=".HelpActivity" />
+        <activity
+            android:name=".ReportIssue"
+            android:label="@string/title_activity_report_issue" />
+        <activity android:name=".MessageScreenActivity" />
+        <activity android:name=".ComposeMsgActivity" />
+
+        <service
+            android:name=".MessageNotificationService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity android:name=".CalenderActivity" />
+        <activity android:name=".ReminderActivity" />
+        <activity android:name=".EventActivity" />
+        <activity android:name=".PassReset" />
+        <activity android:name=".ViewEventsActivity"></activity>
+    </application>
+
+</manifest>
